@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "twitter clone api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "upcoding",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql": "^15.8.0",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.3"
+  }
+}
